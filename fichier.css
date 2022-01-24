@@ -7,12 +7,11 @@ header{
 main{
     display: grid;
 }
-
-nav{
+#logo{
     border: solid 2px black;
-    background-color: red;
+    background-color: blue;
     grid-column: 1;
-    grid-row:1 /span 4;
+    grid-row:1;
 }
 
 #courbe{
@@ -29,10 +28,20 @@ nav{
     grid-row:1 ;  
 }
 
+nav{
+    border: solid 2px black;
+    background-color: red;
+    grid-column: 1;
+    grid-row:2 /span 3;
+}
+
+#actu{
+    border: solid 2px black;
+    background-color: grey;
+    grid-column: 2 /span 3;
+    grid-row:2 /span 3;
+} 
 section{
     border: solid 2px black;
 }
 
-#logo{
-
-}
