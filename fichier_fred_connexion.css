@@ -28,7 +28,7 @@ input[type=text], input[type=password] {
 
 input[type=submit] {
     background-color:rgb(173, 134, 236) ;
-    color: rgb(231, 228, 17);
+    color: rgb(255, 251, 0);
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
