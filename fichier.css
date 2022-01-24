@@ -4,18 +4,35 @@ header{
     display: grid;
 }
 
+main{
+    display: grid;
+}
+
 nav{
     border: solid 2px black;
     background-color: red;
+    grid-column: 1;
+    grid-row:1 /span 4;
 }
-main{
-    display: grid;
+
+#courbe{
+    border: solid 2px black;
+    background-color: green;
+    grid-column: 2 /span 3;
+    grid-row:1;    
+}
+
+#formulaire{
+    border: solid 2px black;
+    background-color: blue;
+    grid-column: 5;
+    grid-row:1 ;  
 }
 
 section{
     border: solid 2px black;
 }
 
-.logo{
+#logo{
 
 }
