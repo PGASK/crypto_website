@@ -9,7 +9,6 @@ main{
 }
 #logo{
     border: solid 2px black;
-    background-color: blue;
     grid-column: 1;
     grid-row:1;
 }
@@ -22,7 +21,7 @@ main{
 }
 
 #formulaire{
-    border: solid 2px black;
+    border: solid 2px #000000;
     background-color: blue;
     grid-column: 5;
     grid-row:1 ;  
@@ -32,7 +31,7 @@ main{
 #actu{
     border: solid 2px black;
     background-color: grey;
-    grid-column: 2 /span 3;
+    grid-column: 2 /span 4;
     grid-row:2 /span 3;
 } 
 section{
@@ -88,4 +87,6 @@ a:hover{
 nav .nav-text  {
   position:relative;
   top:12px;
+
+/*FIN MENU*/
 }
