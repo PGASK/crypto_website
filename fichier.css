@@ -1,1 +1,21 @@
 /* ma feuille de style */
+
+header{
+    display: grid;
+}
+
+nav{
+    border: solid 2px black;
+    background-color: red;
+}
+main{
+    display: grid;
+}
+
+section{
+    border: solid 2px black;
+}
+
+.logo{
+
+}
