@@ -17,6 +17,12 @@ header{
 width:100%
 }
 
+#title{
+    font-family: fantasy;
+    font-size: 10ex;
+    text-align: right;
+}
+
 main{
     display: grid;
 }
