@@ -37,8 +37,6 @@ main{
 #formulaire{
     border: solid 2px #000000;
     background-color: blue;
-    grid-column: 5;
-    grid-row:1 ;
 }
 
 #actu{
