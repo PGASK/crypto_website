@@ -27,7 +27,6 @@ main{
     grid-row:1 ;  
 }
 
-
 #actu{
     border: solid 2px black;
     background-color: grey;
@@ -49,18 +48,6 @@ footer{
     grid-row:1 /span 5;     
 }
 
-
-/*MENU*/
-
-nav{
-    grid-column: 1;
-    grid-row:2 /span 3;
-    border: solid 2px red;
-    background:#00bbbb;
-    height:100%;
-    width:250px;
-    
-}
 /* formulaire */
 
 #container{
@@ -68,6 +55,7 @@ nav{
     margin:0 auto;
     margin-top:10%;
 }
+
 form {
     width:100%;
     padding: 30px;
@@ -98,11 +86,23 @@ input[type=submit] {
     border: none;
     cursor: pointer;
     width: 100%;
+}
+
+/*MENU*/
+
+nav {
+    grid-column: 1;
+    grid-row:2 /span 3;
+    border: solid 2px red;
+    background:#00bbbb;
+    height:100%;
+    width:250px;
+    
+}
 
 /*supprime l'apparence par défaut de l'hypertexte*/
 
 a {
-
   text-decoration:none;
   color:white;
   font-size: 13px;
