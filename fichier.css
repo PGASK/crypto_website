@@ -1,20 +1,27 @@
 /* ma feuille de style */
 
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,40,228,1) 35%, rgba(0,212,255,1) 100%);
+    color: white
+    
+}
+
 header{
     display: grid;
+    
 }
 
 main{
     display: grid;
+    
 }
 #logo{
-    border: solid 2px black;
     grid-column: 1;
     grid-row:1;
 }
 
 #courbe{
-    border: solid 2px black;
     background-color: rgb(214, 179, 179);
     grid-column: 2 /span 3;
     grid-row:1;    
@@ -28,17 +35,13 @@ main{
 }
 
 #actu{
-    border: solid 2px black;
     background-color: grey;
     grid-column: 2 /span 4;
     grid-row:2 /span 3;
 } 
-section{
-    border: solid 2px black;
-}
 
 footer{
-     display: grid;   
+     display: grid;  
 }
 
 #w3c{
@@ -93,7 +96,6 @@ input[type=submit] {
 nav {
     grid-column: 1;
     grid-row:2 /span 3;
-    border: solid 2px red;
     background:#00bbbb;
     height:100%;
     width:250px;
