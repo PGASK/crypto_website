@@ -24,25 +24,29 @@ main{
 #logo{
     grid-column: 1;
     grid-row:1;
+    
 }
 
 #courbe{
     background-color: rgb(214, 179, 179);
     grid-column: 2 /span 3;
     grid-row:1;    
+    
 }
 
 #formulaire{
     border: solid 2px #000000;
     background-color: blue;
     grid-column: 5;
-    grid-row:1 ;  
+    grid-row:1 ; 
+     
 }
 
 #actu{
     background-color: grey;
     grid-column: 2 /span 4;
     grid-row:2 /span 3;
+    
 } 
 
 footer{
@@ -62,6 +66,7 @@ footer{
     width:400px;
     margin:0 auto;
     margin-top:10%;
+    
 }
 
 form {
@@ -104,7 +109,7 @@ nav {
     background:#00bbbb;
     height:100%;
     width:250px;
-    
+    border-radius: 10px;
 }
 
 /*supprime l'apparence par défaut de l'hypertexte*/
@@ -125,6 +130,7 @@ a {
 a:hover{
    color:#fff;
    background-color:#1E2027; 
+   border-radius: 10px;
 }
 
 /*Ajout de style dans les icones*/
